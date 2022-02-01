@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: hayk-from-manifests2
+  name: hayk-ss-1
   namespace: argocd
   annotations:
     argocd-image-updater.argoproj.io/image-list: hamatuni/pos
@@ -21,8 +21,8 @@ spec:
 
   # Destination cluster and namespace to deploy the application
   destination:
-    server: https://kubernetes.default.svc
-    namespace: default
+    server: 'https://cluster.eu-uncontrolled1.vineti.com:443'
+    namespace: devops-upgrade-130
   syncPolicy:
     automated:
       prune: true # specifies if resources should be pruned during auto-syncing ( false by default ).
