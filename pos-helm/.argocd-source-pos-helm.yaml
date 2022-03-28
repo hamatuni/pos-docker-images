@@ -4,5 +4,5 @@ helm:
     value: hamatuni/pos
     forcestring: true
   - name: dex.image.tag
-    value: "200"
+    value: "201"
     forcestring: true
