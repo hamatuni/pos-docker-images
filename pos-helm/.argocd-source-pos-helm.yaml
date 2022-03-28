@@ -1,8 +1,8 @@
 helm:
   parameters:
-  - name: dex.image.name
+  - name: image.name
     value: hamatuni/pos
     forcestring: true
-  - name: dex.image.tag
+  - name: image.tag
     value: "202"
     forcestring: true
