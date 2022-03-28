@@ -8,7 +8,7 @@ dex:
   name: "hamatuni/pos"
   tag: "0.4"
 image:
-  repository: nginx
+  repository: httpd
   tag: stable
   pullPolicy: IfNotPresent
 
