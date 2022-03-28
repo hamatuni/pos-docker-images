@@ -5,8 +5,8 @@
 replicaCount: 1
 
 dex:
-  name: hamatuni/pos
-  tag: 0.4
+  name: "hamatuni/pos"
+  tag: "0.4"
 image:
   repository: nginx
   tag: stable
