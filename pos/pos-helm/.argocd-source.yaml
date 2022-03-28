@@ -1,8 +1,0 @@
-helm:
-  parameters:
-  - name: dex.image.name
-    value: hamatuni/pos
-    forcestring: true
-  - name: dex.image.tag
-    value: "201"
-    forcestring: true
