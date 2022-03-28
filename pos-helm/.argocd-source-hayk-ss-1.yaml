@@ -4,5 +4,5 @@ helm:
     value: hamatuni/pos
     forcestring: true
   - name: image.tag
-    value: "1.22"
+    value: "200"
     forcestring: true
