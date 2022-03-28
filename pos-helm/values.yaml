@@ -8,8 +8,8 @@ dex:
   name: "hamatuni/pos"
   tag: "0.4"
 image:
-  repository: httpd
-  tag: latest
+  repository: hamatuni/pos
+  tag: 0.4
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
