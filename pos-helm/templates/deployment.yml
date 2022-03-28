@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: image.name:image.tag
+        image: hamatuni/pos:0.3
         ports:
         - containerPort: 80
