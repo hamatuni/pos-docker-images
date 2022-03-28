@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image:  image: "{{ .Values.dex.name }}/:{{ .Values.dex.tag }}"      
+        image: "{{ .Values.dex.name }}/:{{ .Values.dex.tag }}"      
         ports:
         - containerPort: 80
