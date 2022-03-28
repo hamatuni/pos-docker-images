@@ -16,7 +16,8 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: nginx
-        image: nginx:latest      
+      - name: {{ .Chart.Name }}
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        imagePullPolicy: {{ .Values.image.pullPolicy }}      
         ports:
         - containerPort: 80
